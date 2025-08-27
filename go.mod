@@ -24,7 +24,7 @@ require (
 	github.com/anchore/go-testutils v0.0.0-20200925183923-d5f45b0d3c04
 	github.com/anchore/go-version v1.2.2-0.20200701162849-18adb9c92b9b
 	github.com/anchore/packageurl-go v0.1.1-0.20250220190351-d62adb6e1115
-	github.com/anchore/stereoscope v0.1.8
+	github.com/anchore/stereoscope v0.1.9-0.20250826202322-ef061ea78385
 	github.com/anmitsu/go-shlex v0.0.0-20200514113438-38f4b401e2be
 	github.com/aquasecurity/go-pep440-version v0.0.1
 	github.com/bitnami/go-version v0.0.0-20250131085805-b1f57a8634ef
@@ -35,7 +35,7 @@ require (
 	github.com/charmbracelet/lipgloss v1.1.0
 	github.com/dave/jennifer v1.7.1
 	github.com/deitch/magic v0.0.0-20230404182410-1ff89d7342da
-	github.com/diskfs/go-diskfs v1.6.1-0.20250601133945-2af1c7ece24c
+	github.com/diskfs/go-diskfs v1.7.0
 	github.com/distribution/reference v0.6.0
 	github.com/dustin/go-humanize v1.0.1
 	github.com/elliotchance/phpserialize v1.4.0
@@ -80,7 +80,7 @@ require (
 	github.com/spdx/tools-golang v0.5.5
 	github.com/spf13/afero v1.14.0
 	github.com/spf13/cobra v1.9.1
-	github.com/stretchr/testify v1.10.0
+	github.com/stretchr/testify v1.11.0
 	github.com/vbatts/go-mtree v0.5.4
 	github.com/vifraa/gopom v1.0.0
 	github.com/wagoodman/go-partybus v0.0.0-20230516145632-8ccac152c651
@@ -88,10 +88,10 @@ require (
 	github.com/xeipuuv/gojsonschema v1.2.0
 	github.com/zyedidia/generic v1.2.2-0.20230320175451-4410d2372cb1
 	go.uber.org/goleak v1.3.0
+	go.yaml.in/yaml/v3 v3.0.4
 	golang.org/x/exp v0.0.0-20250620022241-b7579e27df2b
 	golang.org/x/mod v0.27.0
 	golang.org/x/net v0.43.0
-	gopkg.in/yaml.v3 v3.0.1
 	modernc.org/sqlite v1.38.2
 )
 
@@ -132,7 +132,7 @@ require (
 	github.com/charmbracelet/x/term v0.2.1 // indirect
 	github.com/cloudflare/circl v1.6.1 // indirect
 	github.com/containerd/cgroups v1.1.0 // indirect
-	github.com/containerd/containerd v1.7.27 // indirect
+	github.com/containerd/containerd v1.7.28 // indirect
 	github.com/containerd/containerd/api v1.8.0 // indirect
 	github.com/containerd/continuity v0.4.4 // indirect
 	github.com/containerd/errdefs v1.0.0 // indirect
@@ -149,7 +149,7 @@ require (
 	github.com/docker/distribution v2.8.3+incompatible // indirect
 	github.com/docker/docker v28.3.3+incompatible // indirect
 	github.com/docker/docker-credential-helpers v0.9.3 // indirect
-	github.com/docker/go-connections v0.5.0 // indirect
+	github.com/docker/go-connections v0.6.0 // indirect
 	github.com/docker/go-events v0.0.0-20190806004212-e31b211e4f1c // indirect
 	github.com/docker/go-units v0.5.0 // indirect
 	github.com/dsnet/compress v0.0.2-0.20230904184137-39efe44ab707 // indirect
@@ -273,8 +273,8 @@ require (
 	golang.org/x/sys v0.35.0 // indirect
 	golang.org/x/term v0.34.0 // indirect
 	golang.org/x/text v0.28.0 // indirect
-	golang.org/x/time v0.7.0 // indirect
-	golang.org/x/tools v0.35.0 // indirect
+	golang.org/x/time v0.12.0 // indirect
+	golang.org/x/tools v0.35.0
 	golang.org/x/xerrors v0.0.0-20231012003039-104605ab7028 // indirect
 	google.golang.org/api v0.203.0 // indirect
 	google.golang.org/genproto v0.0.0-20241118233622-e639e219e697 // indirect
@@ -283,6 +283,7 @@ require (
 	google.golang.org/grpc v1.67.3 // indirect
 	google.golang.org/protobuf v1.36.4 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 	modernc.org/libc v1.66.3 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
 	modernc.org/memory v1.11.0 // indirect
