@@ -1,0 +1,5 @@
+https://github.com/tj/commander.js
+https://github.com/mochajs/mocha
+https://github.com/parse-community/parse-server
+https://github.com/jsdom/jsdom
+https://github.com/avajs/ava
